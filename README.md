@@ -1,4 +1,6 @@
 📊 Sentiment Analysis Using Machine Learning
+
+
 This project focuses on building a sentiment classification model using tweets from the Sentiment140 dataset. The main goal is to accurately classify tweets as positive or negative, which has applications in social media monitoring, brand reputation tracking, and understanding public opinion.
 
 📁 Dataset
