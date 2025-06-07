@@ -1,103 +1,105 @@
-📊 Sentiment Analysis Using Machine Learning
-
+## 📊 Sentiment Analysis Using Machine Learning
 
 This project focuses on building a sentiment classification model using tweets from the Sentiment140 dataset. The main goal is to accurately classify tweets as positive or negative, which has applications in social media monitoring, brand reputation tracking, and understanding public opinion.
 
-📁 Dataset
-Source: Kaggle (Sentiment140)
+---
 
-Size: 1.6 million tweets
+### 📁 Dataset
 
-Format: CSV
+**Source**: Kaggle (Sentiment140)
+**Size**: 1.6 million tweets
+**Format**: CSV
 
-Columns:
+**Columns:**
 
-target: Sentiment label (0 = Negative, 4 = Positive)
+* `target`: Sentiment label (0 = Negative, 4 = Positive)
+* `ids`: Tweet ID
+* `date`: Timestamp of the tweet
+* `flag`: Query used (usually “NO\_QUERY”)
+* `user`: Twitter username
+* `text`: The tweet content
 
-ids: Tweet ID
+---
 
-date: Timestamp of the tweet
+### 🧪 Approach
 
-flag: Query used (usually “NO_QUERY”)
-
-user: Twitter username
-
-text: The tweet content
-
-🧪 Approach
 The notebook walks through the following steps:
 
-Data Loading
-The dataset is loaded using Pandas with proper encoding (ISO-8859-1).
+#### Data Loading
 
-Exploratory Data Analysis (EDA)
-Word clouds and frequency analysis are used to understand the data.
+* The dataset is loaded using Pandas with proper encoding (`ISO-8859-1`).
 
-Text Preprocessing
+#### Exploratory Data Analysis (EDA)
 
-Lowercasing
+* Word clouds and frequency analysis are used to understand the data.
 
-Removing URLs, mentions, punctuation, and stopwords
+#### Text Preprocessing
 
-Tokenization and lemmatization
+* Lowercasing
+* Removing URLs, mentions, punctuation, and stopwords
+* Tokenization and lemmatization
 
-Feature Extraction
+#### Feature Extraction
 
-TF-IDF Vectorization
+* TF-IDF Vectorization
 
-Model Training
+#### Model Training
 
-Models used:
+**Models used:**
 
-Logistic Regression
+* Logistic Regression
+* Linear Support Vector Classifier (SVC)
+* Bernoulli Naive Bayes
 
-Linear Support Vector Classifier (SVC)
+#### Evaluation
 
-Bernoulli Naive Bayes
+* Confusion matrix
+* Classification report (Precision, Recall, F1-score)
 
-Evaluation
+---
 
-Confusion matrix
+### 📈 Results
 
-Classification report (Precision, Recall, F1-score)
-
-📈 Results
 The trained models were evaluated using accuracy metrics and confusion matrices to compare their performance in classifying tweet sentiment.
 
-🛠️ Technologies Used
-Python
+---
 
-Pandas, NumPy
+### 🛠️ Technologies Used
 
-Scikit-learn
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib, Seaborn
+* NLTK
+* WordCloud
+* Google Colab
 
-Matplotlib, Seaborn
+---
 
-NLTK
+### 🚀 Getting Started
 
-WordCloud
-
-Google Colab
-
-🚀 Getting Started
 To run this project locally:
 
-Clone the repository
+1. Clone the repository
+2. Install dependencies:
 
-Install dependencies:
-
-```
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn nltk wordcloud
-Open the Sentiment_Analysis.ipynb in Jupyter or Google Colab.
 ```
-Run all cells.
 
-📌 Notes
-Ensure that the Sentiment140 dataset is downloaded and placed in the correct directory.
+3. Open the `Sentiment_Analysis.ipynb` in Jupyter or Google Colab.
+4. Run all cells.
 
-Encoding is critical; use ISO-8859-1 to avoid decoding errors.
+---
 
-📚 References
-Go, A., Bhayani, R., & Huang, L. (2009). Twitter Sentiment Classification using Distant Supervision.
+### 📌 Notes
 
-Dataset: https://www.kaggle.com/datasets/kazanova/sentiment140
+* Ensure that the Sentiment140 dataset is downloaded and placed in the correct directory.
+* Encoding is critical; use `ISO-8859-1` to avoid decoding errors.
+
+---
+
+### 📚 References
+
+* Go, A., Bhayani, R., & Huang, L. (2009). Twitter Sentiment Classification using Distant Supervision.
+* Dataset: [https://www.kaggle.com/datasets/kazanova/sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140)
