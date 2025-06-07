@@ -1,10 +1,10 @@
-## 📊 Sentiment Analysis Using Machine Learning
+## Sentiment Analysis Using Machine Learning
 
 This project focuses on building a sentiment classification model using tweets from the Sentiment140 dataset. The main goal is to accurately classify tweets as positive or negative, which has applications in social media monitoring, brand reputation tracking, and understanding public opinion.
 
 ---
 
-### 📁 Dataset
+### Dataset
 
 **Source**: Kaggle (Sentiment140)
 **Size**: 1.6 million tweets
@@ -21,7 +21,7 @@ This project focuses on building a sentiment classification model using tweets f
 
 ---
 
-### 🧪 Approach
+### Approach
 
 The notebook walks through the following steps:
 
@@ -58,13 +58,13 @@ The notebook walks through the following steps:
 
 ---
 
-### 📈 Results
+### Results
 
 The trained models were evaluated using accuracy metrics and confusion matrices to compare their performance in classifying tweet sentiment.
 
 ---
 
-### 🛠️ Technologies Used
+### Technologies Used
 
 * Python
 * Pandas, NumPy
@@ -76,7 +76,7 @@ The trained models were evaluated using accuracy metrics and confusion matrices 
 
 ---
 
-### 🚀 Getting Started
+### Getting Started
 
 To run this project locally:
 
@@ -92,7 +92,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn nltk wordcloud
 
 ---
 
-### 📌 Notes
+### Notes
 
 * Ensure that the Sentiment140 dataset is downloaded and placed in the correct directory.
 * Encoding is critical; use `ISO-8859-1` to avoid decoding errors.
