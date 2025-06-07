@@ -99,7 +99,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn nltk wordcloud
 
 ---
 
-### 📚 References
+### References
 
 * Go, A., Bhayani, R., & Huang, L. (2009). Twitter Sentiment Classification using Distant Supervision.
 * Dataset: [https://www.kaggle.com/datasets/kazanova/sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140)
